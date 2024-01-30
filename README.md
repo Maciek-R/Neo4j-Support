@@ -31,7 +31,7 @@ Scala compiler should generate appropriate instance of FromMap[TestClass]
 # Installation
 ```scala
 libraryDependencies ++= Seq(
-  "mrlibs" %% "neo4j-support" % "0.1.2"
+  "io.github.maciek-r" %% "neo4j-support" % "0.1.3"
 )
 ```
 
@@ -39,5 +39,5 @@ Remember to add resolver to find dependency in Cloudsmith for example like this:
 
 ```scala
 resolvers +=
-  "mrlibs" at "https://maven.cloudsmith.io/mrlibs/neo4jsupport/"
+  "releases" at "https://s01.oss.sonatype.org/content/groups/staging"
 ```
