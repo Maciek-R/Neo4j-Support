@@ -1,4 +1,4 @@
-ThisBuild / version := "0.1.3"
+ThisBuild / version := "0.1.4"
 ThisBuild / scalaVersion := "2.13.12"
 ThisBuild / organization := "io.github.maciek-r"
 ThisBuild / organizationName := "ruszczyk.maciek"
@@ -16,8 +16,8 @@ ThisBuild / developers := List(
   )
 )
 
-ThisBuild / description := "Neo4j Support lib"
-ThisBuild / licenses := List("The Unlicense" -> new URI("https://unlicense.org/").toURL)
+ThisBuild / description := "Neo4j Support Lib"
+ThisBuild / licenses := List("MIT" -> new URI("https://opensource.org/license/mit/").toURL)
 ThisBuild / homepage := Some(url("https://github.com/Maciek-R/Neo4j-Support"))
 
 ThisBuild / versionScheme := Some("pvp")
